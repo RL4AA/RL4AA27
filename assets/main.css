@@ -78,7 +78,8 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; line-height: 1.2em; padding: 0 0 24px 0;}
+.banner img {display: block; width: 100%;}
 .bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
@@ -114,6 +115,11 @@ img.center{display:block; width:67%; margin:1em auto 2em auto;}
 table.flyers{width:800px;}
 td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 td.sponsor img{width: 100%}
+
+/* Committee lists and call-to-action button */
+ul.people li{margin-bottom: 4px;}
+a.button{display: inline-block; padding: 8px 20px; border-radius: 6px; background: #52739e; color: #fafafa; text-decoration: none;}
+a.button:hover{background: #b2132e; color: #fafafa;}
 
 footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
