@@ -117,7 +117,9 @@ td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle
 td.sponsor img{width: 100%}
 
 /* Committee lists and call-to-action button */
-ul.people li{margin-bottom: 4px;}
+div.people{display: flex; flex-wrap: wrap; gap: 20px; width: 900px; margin: 0 auto;}
+div.person{flex: 0 0 130px; text-align: center;}
+div.person img{width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 50%;}
 a.button{display: inline-block; padding: 8px 20px; border-radius: 6px; background: #52739e; color: #fafafa; text-decoration: none;}
 a.button:hover{background: #b2132e; color: #fafafa;}
 

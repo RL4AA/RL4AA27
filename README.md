@@ -15,6 +15,7 @@ The site is plain HTML/CSS (no build step), served by GitHub Pages from the `mas
 
 The header and navigation are repeated in every page; edit all three when changing them.
 The "Program" and "Indico" menu entries link straight to Indico.
+Headshots live in `assets/people/` (square, ~400 px); people without one use `placeholder.png`.
 
 ## Local preview
 
